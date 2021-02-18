@@ -39,7 +39,7 @@ impl Display for WcsError {
 }
 
 /// Vec::with_capacity(capacity) panics/aborts when the capacity is too large.
-/// This is a safer alternative which reports Error using try_reserve_exact
+/// This is a safer alternative which reports Error using try_reserve_exact.
 ///
 /// ```
 /// use with_capacity_safe::{vec_with_capacity_safe, WcsError, WcsErrorType};
