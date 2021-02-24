@@ -19,7 +19,7 @@ assert!(result.is_err());
 
 0.3.0
 - removed WcsErrorType **** Breaking Change ****
-- changed WcsError to enum **** Breaking Change ****
+- changed WcsError to enum again. **** Breaking Change ****
 - added try_reserve_error() method to WcsError
 
 0.2.0
