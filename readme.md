@@ -14,12 +14,16 @@ assert!(result.is_err());
 ```
 
 
-#changelog
+# changelog
 
-0.2 
 
->Added some documentations.
-> 
->Changed implementation to try_reserve_exact(), just in case.
-> 
->Removed WcsError::new   **** breaking change ***
+0.3.0
+- removed WcsErrorType **** Breaking Change ****
+- changed WcsError to enum **** Breaking Change ****
+- added try_reserve_error() method to WcsError
+
+0.2.0
+
+- Added some documentations.
+- Changed implementation to try_reserve_exact(), just in case.
+- Removed WcsError::new   **** breaking change ***
