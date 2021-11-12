@@ -11,4 +11,3 @@ readme = "readme.md"
 keywords = ["Vec", "try_reserve", "with_capacity"]
 
 [dependencies]
-
