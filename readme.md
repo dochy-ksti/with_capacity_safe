@@ -16,6 +16,8 @@ assert!(result.is_err());
 
 # changelog
 
+0.4.0
+TryReserve is 
 
 0.3.0
 - removed WcsErrorType **** Breaking Change ****
