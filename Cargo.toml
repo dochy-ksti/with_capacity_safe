@@ -1,13 +1,14 @@
 [package]
 name = "with_capacity_safe"
-version = "0.4.1"
+version = "0.4.2"
 authors = ["juzu <dochy.ksti@gmail.com>"]
 edition = "2018"
 
 license = "MIT"
-description = "A safer alternative to Vec::with_capacity"
+description = "A safer alternative to Vec::with_capacity with into_raw_parts which can be used from stable"
 repository = "https://github.com/dochy-ksti/with_capacity_safe"
 readme = "readme.md"
-keywords = ["Vec", "try_reserve", "with_capacity"]
+keywords = ["Vec", "try_reserve", "with_capacity", "into_raw_parts"]
+rust-version = "1.57"
 
 [dependencies]

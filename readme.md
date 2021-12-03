@@ -12,12 +12,16 @@ let result : Result<Vec<u8>, _> = vec_with_capacity_safe(number_from_file);
 //An error is reported
 assert!(result.is_err());
 ```
+vec_into_raw_parts decomposes Vec into ts raw components.
 
+### Minimum Supported Version of Rust
+
+1.57.0(stable)
 
 # changelog
 
-0.4.0
-TryReserve is 
+0.4.2
+TryReserve is stabilized at Rust 1.57.0 
 
 0.3.0
 - removed WcsErrorType **** Breaking Change ****
